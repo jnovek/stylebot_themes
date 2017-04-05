@@ -1,0 +1,24 @@
+div.client_channels_list_container {
+    flex-basis: 140px;
+    min-width: 1px;
+    max-width: 200px;
+}
+
+header#client_header {
+    width: 550px;
+}
+
+div#client_body, form#msg_form, textarea#message_input {
+    margin-left: 0px;
+    width: 480px;
+}
+
+div.show_which_channel_is_active {
+    width: 140px;
+}
+
+li.channel, a.channel_name, li.group, a.group_name, a.im_name, a.mpim_name, li.member, li.mpim {
+    font-size: 13px;
+    line-height: 18px;
+    height: 18px;
+}
